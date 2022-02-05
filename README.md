@@ -70,4 +70,4 @@ t2の列のうちはCoundry Code incomeGroupを使います．<br>
     SELECT  CountryName, CountryCode, IncomeGroup, AVG(y2020) OVER (PARTITION BY IncomeGroup)<br>
     FROM mod WHERE y2020!="" AND IncomeGroup!="" ORDER BY CountryCode;<br>
 <br>
----
+---<br>

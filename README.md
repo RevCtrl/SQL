@@ -36,13 +36,13 @@ Metadata_Indicator_API_NY.GDP.PCAP.PP.CD_DS2_en_csv_v2_3469401.csv<br>
 分かりやすさ記述のしやすさから編集した1番目のファイル名を"t1.csv", そのままの2番目を"t2.csv"と名前をつけて処理します．<br>
 <br>
 SQLiteを起動させつつデータベース(db.db)作ります<br>
-sqlite3.exe db.db<br>
+    sqlite3.exe db.db<br>
 <br>
 SQLiteを使ってcsvを読み込みます．<br>
 <br>
-.mode csv<br>
-.import t1.csv t1<br>
-.import t2.csv t2<br>
+    .mode csv<br>
+    .import t1.csv t1<br>
+    .import t2.csv t2<br>
 <br>
 使う列としては<br>
 t1の列のうち，Country Name, Coundry Code, 2020を使います (2020なのは単純に最新年だからです)．<br>
@@ -52,34 +52,35 @@ t2の列のうちはCoundry Code incomeGroupを使います．<br>
 /* 列名に空白があるとブラケット([])をつける必要があって大変なので新しいテーブルではパスカルケースにしてます */<br>
 /* 数字で始まるのもアポストロフィ('')が必要なのでy(year)を頭につけました． */<br>
 /* ちなみにt1とt2では国・地域の数が1つ違って前者にだけ「Not classified (INX)」が入ってます */<br>
-<br>
-CREATE TABLE mod<br>
-AS<br>
-SELECT t1.[Country Name] AS CountryName,t1.[Country Code] AS CountryCode,t1.'2020' AS y2020, t2.IncomeGroup<br>
-FROM t1<br>
-INNER JOIN t2<br>
-ON t1.[Country Code] = t2.[Country Code];<br>
+    CREATE TABLE mod<br>
+    AS<br>
+    SELECT t1.[Country Name] AS CountryName,t1.[Country Code] AS CountryCode,t1.'2020' AS y2020, t2.IncomeGroup<br>
+    FROM t1<br>
+    INNER JOIN t2<br>
+    ON t1.[Country Code] = t2.[Country Code];<br>
 <br>
 /* y2020，IncomeGroupのどちらが空欄の国・地域は省いて処理します */<br>
 /* 元のcsvファイルではすべての値に二重引用符""がついてるので条件はNULLについては扱っていません */<br>
-SELECT  CountryName, CountryCode, IncomeGroup, AVG(y2020) OVER (PARTITION BY IncomeGroup)<br>
-FROM mod WHERE y2020!="" AND IncomeGroup!="" ORDER BY CountryCode;<br>
+    SELECT  CountryName, CountryCode, IncomeGroup, AVG(y2020) OVER (PARTITION BY IncomeGroup)<br>
+    FROM mod WHERE y2020!="" AND IncomeGroup!="" ORDER BY CountryCode;<br>
 <br>
 /* SELECTしたものでテーブルを作る場合です*/<br>
-CREATE TABLE ex<br>
-AS<br>
-SELECT  CountryName, CountryCode, IncomeGroup, AVG(y2020) OVER (PARTITION BY IncomeGroup)<br>
-FROM mod WHERE y2020!="" AND IncomeGroup!="" ORDER BY CountryCode;<br>
+    CREATE TABLE ex<br>
+    AS<br>
+    SELECT  CountryName, CountryCode, IncomeGroup, AVG(y2020) OVER (PARTITION BY IncomeGroup)<br>
+    FROM mod WHERE y2020!="" AND IncomeGroup!="" ORDER BY CountryCode;<br>
 <br>
+---
 SQLiteのコマンドでエクスポートします<br>
 <br>
-.headers on<br>
-.mode csv<br>
-.once ex.csv<br>
-select * from ex;<br>
+    .headers on<br>
+    .mode csv<br>
+    .once ex.csv<br>
+    select * from ex;<br>
 <br>
 ex.csvが完成ファイルです<br>
 <br>
+---
 db.dbとex.csvについてはフォルダ内のものは上書きされないように「_」を頭につけてます<br>
 t1t2.dbはt1とt2を読み込んだだけのデータベースです<br>
 使ったSQL文はsql.sqlファイルに入れてます．<br>

@@ -1,0 +1,190 @@
+CountryName,CountryCode,IncomeGroup,"AVG(y2020) OVER (PARTITION BY IncomeGroup)"
+Afghanistan,AFG,"Low income",1887.87134633636
+Angola,AGO,"Lower middle income",6302.44541469091
+Albania,ALB,"Upper middle income",15939.3142189231
+"United Arab Emirates",ARE,"High income",46556.0390301667
+Argentina,ARG,"Upper middle income",15939.3142189231
+Armenia,ARM,"Upper middle income",15939.3142189231
+"Antigua and Barbuda",ATG,"High income",46556.0390301667
+Australia,AUS,"High income",46556.0390301667
+Austria,AUT,"High income",46556.0390301667
+Azerbaijan,AZE,"Upper middle income",15939.3142189231
+Burundi,BDI,"Low income",1887.87134633636
+Belgium,BEL,"High income",46556.0390301667
+Benin,BEN,"Lower middle income",6302.44541469091
+"Burkina Faso",BFA,"Low income",1887.87134633636
+Bangladesh,BGD,"Lower middle income",6302.44541469091
+Bulgaria,BGR,"Upper middle income",15939.3142189231
+Bahrain,BHR,"High income",46556.0390301667
+"Bahamas, The",BHS,"High income",46556.0390301667
+"Bosnia and Herzegovina",BIH,"Upper middle income",15939.3142189231
+Belarus,BLR,"Upper middle income",15939.3142189231
+Belize,BLZ,"Lower middle income",6302.44541469091
+Bermuda,BMU,"High income",46556.0390301667
+Bolivia,BOL,"Lower middle income",6302.44541469091
+Brazil,BRA,"Upper middle income",15939.3142189231
+Barbados,BRB,"High income",46556.0390301667
+"Brunei Darussalam",BRN,"High income",46556.0390301667
+Bhutan,BTN,"Lower middle income",6302.44541469091
+Botswana,BWA,"Upper middle income",15939.3142189231
+"Central African Republic",CAF,"Low income",1887.87134633636
+Canada,CAN,"High income",46556.0390301667
+Switzerland,CHE,"High income",46556.0390301667
+Chile,CHL,"High income",46556.0390301667
+China,CHN,"Upper middle income",15939.3142189231
+"Cote d'Ivoire",CIV,"Lower middle income",6302.44541469091
+Cameroon,CMR,"Lower middle income",6302.44541469091
+"Congo, Dem. Rep.",COD,"Low income",1887.87134633636
+"Congo, Rep.",COG,"Lower middle income",6302.44541469091
+Colombia,COL,"Upper middle income",15939.3142189231
+Comoros,COM,"Lower middle income",6302.44541469091
+"Cabo Verde",CPV,"Lower middle income",6302.44541469091
+"Costa Rica",CRI,"Upper middle income",15939.3142189231
+Curacao,CUW,"High income",46556.0390301667
+"Cayman Islands",CYM,"High income",46556.0390301667
+Cyprus,CYP,"High income",46556.0390301667
+"Czech Republic",CZE,"High income",46556.0390301667
+Germany,DEU,"High income",46556.0390301667
+Djibouti,DJI,"Lower middle income",6302.44541469091
+Dominica,DMA,"Upper middle income",15939.3142189231
+Denmark,DNK,"High income",46556.0390301667
+"Dominican Republic",DOM,"Upper middle income",15939.3142189231
+Algeria,DZA,"Lower middle income",6302.44541469091
+Ecuador,ECU,"Upper middle income",15939.3142189231
+"Egypt, Arab Rep.",EGY,"Lower middle income",6302.44541469091
+Spain,ESP,"High income",46556.0390301667
+Estonia,EST,"High income",46556.0390301667
+Ethiopia,ETH,"Low income",1887.87134633636
+Finland,FIN,"High income",46556.0390301667
+Fiji,FJI,"Upper middle income",15939.3142189231
+France,FRA,"High income",46556.0390301667
+"Micronesia, Fed. Sts.",FSM,"Lower middle income",6302.44541469091
+Gabon,GAB,"Upper middle income",15939.3142189231
+"United Kingdom",GBR,"High income",46556.0390301667
+Georgia,GEO,"Upper middle income",15939.3142189231
+Ghana,GHA,"Lower middle income",6302.44541469091
+Guinea,GIN,"Low income",1887.87134633636
+"Gambia, The",GMB,"Low income",1887.87134633636
+Guinea-Bissau,GNB,"Low income",1887.87134633636
+"Equatorial Guinea",GNQ,"Upper middle income",15939.3142189231
+Greece,GRC,"High income",46556.0390301667
+Grenada,GRD,"Upper middle income",15939.3142189231
+Guatemala,GTM,"Upper middle income",15939.3142189231
+Guyana,GUY,"Upper middle income",15939.3142189231
+"Hong Kong SAR, China",HKG,"High income",46556.0390301667
+Honduras,HND,"Lower middle income",6302.44541469091
+Croatia,HRV,"High income",46556.0390301667
+Haiti,HTI,"Lower middle income",6302.44541469091
+Hungary,HUN,"High income",46556.0390301667
+Indonesia,IDN,"Lower middle income",6302.44541469091
+India,IND,"Lower middle income",6302.44541469091
+Ireland,IRL,"High income",46556.0390301667
+"Iran, Islamic Rep.",IRN,"Lower middle income",6302.44541469091
+Iraq,IRQ,"Upper middle income",15939.3142189231
+Iceland,ISL,"High income",46556.0390301667
+Israel,ISR,"High income",46556.0390301667
+Italy,ITA,"High income",46556.0390301667
+Jamaica,JAM,"Upper middle income",15939.3142189231
+Jordan,JOR,"Upper middle income",15939.3142189231
+Japan,JPN,"High income",46556.0390301667
+Kazakhstan,KAZ,"Upper middle income",15939.3142189231
+Kenya,KEN,"Lower middle income",6302.44541469091
+"Kyrgyz Republic",KGZ,"Lower middle income",6302.44541469091
+Cambodia,KHM,"Lower middle income",6302.44541469091
+Kiribati,KIR,"Lower middle income",6302.44541469091
+"St. Kitts and Nevis",KNA,"High income",46556.0390301667
+"Korea, Rep.",KOR,"High income",46556.0390301667
+Kuwait,KWT,"High income",46556.0390301667
+"Lao PDR",LAO,"Lower middle income",6302.44541469091
+Lebanon,LBN,"Upper middle income",15939.3142189231
+Liberia,LBR,"Low income",1887.87134633636
+Libya,LBY,"Upper middle income",15939.3142189231
+"St. Lucia",LCA,"Upper middle income",15939.3142189231
+"Sri Lanka",LKA,"Lower middle income",6302.44541469091
+Lesotho,LSO,"Lower middle income",6302.44541469091
+Lithuania,LTU,"High income",46556.0390301667
+Luxembourg,LUX,"High income",46556.0390301667
+Latvia,LVA,"High income",46556.0390301667
+"Macao SAR, China",MAC,"High income",46556.0390301667
+Morocco,MAR,"Lower middle income",6302.44541469091
+Moldova,MDA,"Upper middle income",15939.3142189231
+Madagascar,MDG,"Low income",1887.87134633636
+Maldives,MDV,"Upper middle income",15939.3142189231
+Mexico,MEX,"Upper middle income",15939.3142189231
+"Marshall Islands",MHL,"Upper middle income",15939.3142189231
+"North Macedonia",MKD,"Upper middle income",15939.3142189231
+Mali,MLI,"Low income",1887.87134633636
+Malta,MLT,"High income",46556.0390301667
+Myanmar,MMR,"Lower middle income",6302.44541469091
+Montenegro,MNE,"Upper middle income",15939.3142189231
+Mongolia,MNG,"Lower middle income",6302.44541469091
+Mozambique,MOZ,"Low income",1887.87134633636
+Mauritania,MRT,"Lower middle income",6302.44541469091
+Mauritius,MUS,"Upper middle income",15939.3142189231
+Malawi,MWI,"Low income",1887.87134633636
+Malaysia,MYS,"Upper middle income",15939.3142189231
+Namibia,NAM,"Upper middle income",15939.3142189231
+Niger,NER,"Low income",1887.87134633636
+Nigeria,NGA,"Lower middle income",6302.44541469091
+Nicaragua,NIC,"Lower middle income",6302.44541469091
+Netherlands,NLD,"High income",46556.0390301667
+Norway,NOR,"High income",46556.0390301667
+Nepal,NPL,"Lower middle income",6302.44541469091
+Nauru,NRU,"High income",46556.0390301667
+"New Zealand",NZL,"High income",46556.0390301667
+Pakistan,PAK,"Lower middle income",6302.44541469091
+Panama,PAN,"Upper middle income",15939.3142189231
+Peru,PER,"Upper middle income",15939.3142189231
+Philippines,PHL,"Lower middle income",6302.44541469091
+Palau,PLW,"High income",46556.0390301667
+"Papua New Guinea",PNG,"Lower middle income",6302.44541469091
+Poland,POL,"High income",46556.0390301667
+"Puerto Rico",PRI,"High income",46556.0390301667
+Portugal,PRT,"High income",46556.0390301667
+Paraguay,PRY,"Upper middle income",15939.3142189231
+"West Bank and Gaza",PSE,"Lower middle income",6302.44541469091
+Qatar,QAT,"High income",46556.0390301667
+Romania,ROU,"Upper middle income",15939.3142189231
+"Russian Federation",RUS,"Upper middle income",15939.3142189231
+Rwanda,RWA,"Low income",1887.87134633636
+"Saudi Arabia",SAU,"High income",46556.0390301667
+Sudan,SDN,"Low income",1887.87134633636
+Senegal,SEN,"Lower middle income",6302.44541469091
+Singapore,SGP,"High income",46556.0390301667
+"Solomon Islands",SLB,"Lower middle income",6302.44541469091
+"Sierra Leone",SLE,"Low income",1887.87134633636
+"El Salvador",SLV,"Lower middle income",6302.44541469091
+Somalia,SOM,"Low income",1887.87134633636
+Serbia,SRB,"Upper middle income",15939.3142189231
+"Sao Tome and Principe",STP,"Lower middle income",6302.44541469091
+Suriname,SUR,"Upper middle income",15939.3142189231
+"Slovak Republic",SVK,"High income",46556.0390301667
+Slovenia,SVN,"High income",46556.0390301667
+Sweden,SWE,"High income",46556.0390301667
+Eswatini,SWZ,"Lower middle income",6302.44541469091
+Seychelles,SYC,"High income",46556.0390301667
+"Turks and Caicos Islands",TCA,"High income",46556.0390301667
+Chad,TCD,"Low income",1887.87134633636
+Togo,TGO,"Low income",1887.87134633636
+Thailand,THA,"Upper middle income",15939.3142189231
+Tajikistan,TJK,"Lower middle income",6302.44541469091
+Timor-Leste,TLS,"Lower middle income",6302.44541469091
+Tonga,TON,"Upper middle income",15939.3142189231
+"Trinidad and Tobago",TTO,"High income",46556.0390301667
+Tunisia,TUN,"Lower middle income",6302.44541469091
+Turkey,TUR,"Upper middle income",15939.3142189231
+Tuvalu,TUV,"Upper middle income",15939.3142189231
+Tanzania,TZA,"Lower middle income",6302.44541469091
+Uganda,UGA,"Low income",1887.87134633636
+Ukraine,UKR,"Lower middle income",6302.44541469091
+Uruguay,URY,"High income",46556.0390301667
+"United States",USA,"High income",46556.0390301667
+Uzbekistan,UZB,"Lower middle income",6302.44541469091
+"St. Vincent and the Grenadines",VCT,"Upper middle income",15939.3142189231
+Vietnam,VNM,"Lower middle income",6302.44541469091
+Vanuatu,VUT,"Lower middle income",6302.44541469091
+Samoa,WSM,"Lower middle income",6302.44541469091
+Kosovo,XKX,"Upper middle income",15939.3142189231
+"South Africa",ZAF,"Upper middle income",15939.3142189231
+Zambia,ZMB,"Lower middle income",6302.44541469091
+Zimbabwe,ZWE,"Lower middle income",6302.44541469091

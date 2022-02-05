@@ -1,13 +1,13 @@
 # SQL
 
-目的「SQLでデータ処理」
+目的「SQLでデータ処理」<br>
 
-今回はSQL使われるデータベースソフトのうちサーバーを立てる必要がないSQLiteを使います．
-SQLite	#64-bit DLL (x64) for SQLite version 3.37.2.
-OS: Windows 11 64bit
-
-データソースはオープンデータの中で世界銀行の
-
+今回はSQL使われるデータベースソフトのうちサーバーを立てる必要がないSQLiteを使います．<br>
+SQLite	#64-bit DLL (x64) for SQLite version 3.37.2.<br>
+OS: Windows 11 64bit<br>
+<br>
+データソースはオープンデータの中で世界銀行の<br>
+<br>
 「GDP per capita, PPP (current international $)」#各国の一人当たり実質GDP (国際ドル)
 URL: https://data.worldbank.org/indicator/NY.GDP.PCAP.PP.CD?view=chart
 Updated: 2021-12-17

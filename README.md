@@ -64,23 +64,19 @@ t2の列のうちはCoundry Code incomeGroupを使います．<br>
     SELECT  CountryName, CountryCode, IncomeGroup, AVG(y2020) OVER (PARTITION BY IncomeGroup)<br>
     FROM mod WHERE y2020!="" AND IncomeGroup!="" ORDER BY CountryCode;<br>
 <br>
-/* SELECTしたものでテーブルを作る場合です*/<br>
+/* SELECTしたものでテーブルを作る場合です */<br>
     CREATE TABLE ex<br>
     AS<br>
     SELECT  CountryName, CountryCode, IncomeGroup, AVG(y2020) OVER (PARTITION BY IncomeGroup)<br>
     FROM mod WHERE y2020!="" AND IncomeGroup!="" ORDER BY CountryCode;<br>
 <br>
----<br>
 SQLiteのコマンドでエクスポートします<br>
-<br>
     .headers on<br>
     .mode csv<br>
     .once ex.csv<br>
     select * from ex;<br>
 <br>
 ex.csvが完成ファイルです<br>
-<br>
----<br>
 db.dbとex.csvについてはフォルダ内のものは上書きされないように「_」を頭につけてます<br>
 t1t2.dbはt1とt2を読み込んだだけのデータベースです<br>
 使ったSQL文はsql.sqlファイルに入れてます．<br>
